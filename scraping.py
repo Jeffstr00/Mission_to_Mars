@@ -29,7 +29,7 @@ def scrape_all():
     return data
 
 
-def mars_new(browser):
+def mars_news(browser):
 
     # Scrape Mars News
     # Visit the mars nasa news site
