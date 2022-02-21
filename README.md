@@ -2,7 +2,7 @@
 
 ## Overview
 
-Robin is a data scientist who is obsessed with space, particularly Mars, so she spends a lot of her time keeping up with the latest news on the topic.  While it is currently her hobby, she ultimately dreams of working for NASA someday.  In an attempt to impress her prospective employer, she decides to put together a webpage.  However, rather than just creating a static webpage, she wants it to be a dynamic page which features the latest and greatest news and images.  In order to do this, she has asked us to help her set up a system that will automatically scrape the latest headlines, pictures and information on the Red Planet from different websites and then display them on a webpage of her own.
+Robin is a data scientist who is obsessed with space, particularly Mars, so she spends a lot of her time keeping up with the latest news on the topic.  While it is currently her hobby, she ultimately dreams of working for NASA someday.  In an attempt to impress her prospective employer, she decides to put together a webpage.  However, rather than just creating a static webpage, she wants it to be a dynamic page which features the latest and greatest news and images.  In order to do this, she has asked us to help her set up a system that will automatically scrape the latest headlines, pictures, and information on the Red Planet from different websites and then display them on a webpage of her own.
 
 ## Information Gathering/Scraping
 
@@ -28,7 +28,7 @@ While we started off with a standard webpage, we customized it in an attempt to 
 
 * Various headline texts were centered using, for instance, `<h2 style="text-align:center">Featured Mars Image</h2>`.
 * The "Scrape New Data" button was changed to red by adding `class="btn btn-danger btn-lg"` to the button code.
-* We highlight the fact that the Latest Mars News paragraph is a quote by putting `<p>{{ mars.news_paragraph }}</p>` inside of a <blockquote>.
+* We highlight the fact that the Latest Mars News paragraph is a quote by putting `<p>{{ mars.news_paragraph }}</p>` inside of a `<blockquote>`.
 * To go with the Mars theme, we made the background into a maroon/black gradient using `<body style="background-image: linear-gradient(to bottom right, #530909, black); color:rgb(245, 222, 222);">` (which subsequently had us change the font color to white so that it would be readable).
 * For the main Mission to Mars title, we highlighted it by putting it (and the scrape button) inside of a black/gray/maroon radial gradient: `      <div class="jumbotron text-center" style="background-image: radial-gradient(black, rgb(32, 24, 24), #530909); color:rgb(245, 222, 222);">`.
 
